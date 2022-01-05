@@ -1,0 +1,3 @@
+D:/LVGL/Novatek/tool_src_file/lv_sim_visual_studio/LVGL.Simulator/lvgl/out/build/x64-Debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_554fa.dir
+D:/LVGL/Novatek/tool_src_file/lv_sim_visual_studio/LVGL.Simulator/lvgl/out/build/x64-Debug/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
+D:/LVGL/Novatek/tool_src_file/lv_sim_visual_studio/LVGL.Simulator/lvgl/out/build/x64-Debug/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir

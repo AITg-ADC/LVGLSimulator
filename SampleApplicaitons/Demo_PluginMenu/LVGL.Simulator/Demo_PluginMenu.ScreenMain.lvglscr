@@ -1,0 +1,2814 @@
+{
+    "event callback": "ScreenMain_event_callback",
+    "name": "ScreenMain",
+    "screen color": "0xc2c2c2",
+    "widgets": [
+        {
+            "children": [
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Center",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 35,
+                                "width": 145,
+                                "x": 12,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Crop",
+                            "name": "label_1",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 53,
+                        "width": 168,
+                        "x": 6,
+                        "y": 6
+                    },
+                    "hidden": false,
+                    "layout": "Center",
+                    "locked": false,
+                    "name": "button_1",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 10
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495"
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Center",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 35,
+                                "width": 145,
+                                "x": 12,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Crop",
+                            "name": "label_2",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 53,
+                        "width": 168,
+                        "x": 180,
+                        "y": 6
+                    },
+                    "hidden": false,
+                    "layout": "Center",
+                    "locked": false,
+                    "name": "button_2",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 10
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495"
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Center",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 35,
+                                "width": 145,
+                                "x": 12,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Crop",
+                            "name": "label_3",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 53,
+                        "width": 168,
+                        "x": 354,
+                        "y": 6
+                    },
+                    "hidden": false,
+                    "layout": "Center",
+                    "locked": false,
+                    "name": "button_3",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 10
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495"
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Center",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 35,
+                                "width": 145,
+                                "x": 12,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Crop",
+                            "name": "label_4",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 53,
+                        "width": 168,
+                        "x": 6,
+                        "y": 65
+                    },
+                    "hidden": false,
+                    "layout": "Center",
+                    "locked": false,
+                    "name": "button_4",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 10
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495"
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Center",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 35,
+                                "width": 145,
+                                "x": 12,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Crop",
+                            "name": "label_5",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 53,
+                        "width": 168,
+                        "x": 180,
+                        "y": 65
+                    },
+                    "hidden": false,
+                    "layout": "Center",
+                    "locked": false,
+                    "name": "button_5",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 10
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495"
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Center",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 35,
+                                "width": 145,
+                                "x": 12,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Crop",
+                            "name": "label_6",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 53,
+                        "width": 168,
+                        "x": 354,
+                        "y": 65
+                    },
+                    "hidden": false,
+                    "layout": "Center",
+                    "locked": false,
+                    "name": "button_6",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 10
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495"
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "Outline": {
+                                "outline_width": 0
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                }
+            ],
+            "class": "lv_cont",
+            "click": true,
+            "drag": false,
+            "event callback": "",
+            "geometry": {
+                "height": 128,
+                "width": 531,
+                "x": 103,
+                "y": 20
+            },
+            "hidden": false,
+            "layout": "Grid",
+            "locked": false,
+            "name": "container_1",
+            "styles": [
+                {
+                    "Background": {
+                        "bg_color": "0x1f489a"
+                    },
+                    "Border": {
+                        "border_color": "0xdddddd"
+                    },
+                    "Padding": {
+                        "pad_bottom": 6,
+                        "pad_inner": 6,
+                        "pad_left": 6,
+                        "pad_right": 6,
+                        "pad_top": 6
+                    },
+                    "part": 0,
+                    "state": 0
+                },
+                {
+                    "part": 0,
+                    "state": 1
+                },
+                {
+                    "part": 0,
+                    "state": 2
+                },
+                {
+                    "part": 0,
+                    "state": 3
+                },
+                {
+                    "part": 0,
+                    "state": 4
+                },
+                {
+                    "part": 0,
+                    "state": 5
+                },
+                {
+                    "part": 0,
+                    "state": 6
+                }
+            ],
+            "widget": "Container"
+        },
+        {
+            "children": [
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "auto size": true,
+                            "class": "lv_img",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 66,
+                                "width": 86,
+                                "x": 12,
+                                "y": 12
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "name": "image_1",
+                            "offset": {
+                                "X": 0,
+                                "Y": 0
+                            },
+                            "source": "ICON_ADAS_CAL_M",
+                            "styles": [
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "widget": "Image"
+                        }
+                    ],
+                    "class": "lv_imgbtn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "geometry": {
+                        "height": 90,
+                        "width": 110,
+                        "x": 14,
+                        "y": 14
+                    },
+                    "hidden": false,
+                    "layout": "Center",
+                    "locked": false,
+                    "name": "image_button_1",
+                    "source checked disabled": "default",
+                    "source checked pressed": "default",
+                    "source checked released": "default",
+                    "source disabled": "ICON_BTN_EMBOSS",
+                    "source pressed": "ICON_ACT_PUSH_BTN",
+                    "source released": "ICON_ACT_RELEASE_BTN",
+                    "state": "Released",
+                    "styles": [
+                        {
+                            "Image": {
+                                "image_recolor": "0x3c3c3c"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Image button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "auto size": true,
+                            "class": "lv_img",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 66,
+                                "width": 86,
+                                "x": 12,
+                                "y": 12
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "name": "image_2",
+                            "offset": {
+                                "X": 0,
+                                "Y": 0
+                            },
+                            "source": "ICON_ADAS_CAL_M",
+                            "styles": [
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "widget": "Image"
+                        }
+                    ],
+                    "class": "lv_imgbtn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "geometry": {
+                        "height": 90,
+                        "width": 110,
+                        "x": 136,
+                        "y": 14
+                    },
+                    "hidden": false,
+                    "layout": "Center",
+                    "locked": false,
+                    "name": "image_button_2",
+                    "source checked disabled": "default",
+                    "source checked pressed": "default",
+                    "source checked released": "default",
+                    "source disabled": "ICON_BTN_EMBOSS",
+                    "source pressed": "ICON_ACT_PUSH_BTN",
+                    "source released": "ICON_ACT_RELEASE_BTN",
+                    "state": "Released",
+                    "styles": [
+                        {
+                            "Image": {
+                                "image_recolor": "0x3c3c3c"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Image button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "auto size": true,
+                            "class": "lv_img",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 66,
+                                "width": 86,
+                                "x": 12,
+                                "y": 12
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "name": "image_3",
+                            "offset": {
+                                "X": 0,
+                                "Y": 0
+                            },
+                            "source": "ICON_ADAS_CAL_M",
+                            "styles": [
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "widget": "Image"
+                        }
+                    ],
+                    "class": "lv_imgbtn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "geometry": {
+                        "height": 90,
+                        "width": 110,
+                        "x": 14,
+                        "y": 116
+                    },
+                    "hidden": false,
+                    "layout": "Center",
+                    "locked": false,
+                    "name": "image_button_3",
+                    "source checked disabled": "default",
+                    "source checked pressed": "default",
+                    "source checked released": "default",
+                    "source disabled": "ICON_BTN_EMBOSS",
+                    "source pressed": "ICON_ACT_PUSH_BTN",
+                    "source released": "ICON_ACT_RELEASE_BTN",
+                    "state": "Released",
+                    "styles": [
+                        {
+                            "Image": {
+                                "image_recolor": "0x3c3c3c"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Image button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "auto size": true,
+                            "class": "lv_img",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 66,
+                                "width": 86,
+                                "x": 12,
+                                "y": 12
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "name": "image_4",
+                            "offset": {
+                                "X": 0,
+                                "Y": 0
+                            },
+                            "source": "ICON_ADAS_CAL_M",
+                            "styles": [
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "widget": "Image"
+                        }
+                    ],
+                    "class": "lv_imgbtn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "geometry": {
+                        "height": 90,
+                        "width": 110,
+                        "x": 136,
+                        "y": 116
+                    },
+                    "hidden": false,
+                    "layout": "Center",
+                    "locked": false,
+                    "name": "image_button_4",
+                    "source checked disabled": "default",
+                    "source checked pressed": "default",
+                    "source checked released": "default",
+                    "source disabled": "ICON_BTN_EMBOSS",
+                    "source pressed": "ICON_ACT_PUSH_BTN",
+                    "source released": "ICON_ACT_RELEASE_BTN",
+                    "state": "Released",
+                    "styles": [
+                        {
+                            "Image": {
+                                "image_recolor": "0x3c3c3c"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Image button"
+                }
+            ],
+            "class": "lv_cont",
+            "click": true,
+            "drag": false,
+            "event callback": "",
+            "geometry": {
+                "height": 214,
+                "width": 260,
+                "x": 7,
+                "y": 198
+            },
+            "hidden": false,
+            "layout": "Grid",
+            "locked": false,
+            "name": "container_2",
+            "styles": [
+                {
+                    "Background": {
+                        "bg_color": "0x8e8e8e"
+                    },
+                    "Border": {
+                        "border_color": "0xdddddd"
+                    },
+                    "part": 0,
+                    "state": 0
+                },
+                {
+                    "part": 0,
+                    "state": 1
+                },
+                {
+                    "part": 0,
+                    "state": 2
+                },
+                {
+                    "part": 0,
+                    "state": 3
+                },
+                {
+                    "part": 0,
+                    "state": 4
+                },
+                {
+                    "part": 0,
+                    "state": 5
+                },
+                {
+                    "part": 0,
+                    "state": 6
+                }
+            ],
+            "widget": "Container"
+        },
+        {
+            "children": [
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Left",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 30,
+                                "width": 101,
+                                "x": 33,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Roll Circularly",
+                            "name": "label_9",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        },
+                        {
+                            "auto size": true,
+                            "class": "lv_img",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 28,
+                                "width": 28,
+                                "x": 150,
+                                "y": 10
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "name": "image_5",
+                            "offset": {
+                                "X": 0,
+                                "Y": 0
+                            },
+                            "source": "ICON_ADAS_CAL",
+                            "styles": [
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "Image": {
+                                        "image_recolor": "0xffffff"
+                                    },
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x888888"
+                                    },
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "widget": "Image"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 48,
+                        "width": 231,
+                        "x": 4,
+                        "y": 6
+                    },
+                    "hidden": false,
+                    "layout": "Row Mid",
+                    "locked": false,
+                    "name": "button_9",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 0
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495",
+                                "outline_width": 0
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Left",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 30,
+                                "width": 101,
+                                "x": 33,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Roll Circularly",
+                            "name": "label_7",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        },
+                        {
+                            "auto size": true,
+                            "class": "lv_img",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 28,
+                                "width": 28,
+                                "x": 150,
+                                "y": 10
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "name": "image_6",
+                            "offset": {
+                                "X": 0,
+                                "Y": 0
+                            },
+                            "source": "ICON_ADAS_CAL",
+                            "styles": [
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "Image": {
+                                        "image_recolor": "0xffffff"
+                                    },
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x888888"
+                                    },
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "widget": "Image"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 48,
+                        "width": 231,
+                        "x": 4,
+                        "y": 59
+                    },
+                    "hidden": false,
+                    "layout": "Row Mid",
+                    "locked": false,
+                    "name": "button_7",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 0
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495",
+                                "outline_width": 0
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Left",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 30,
+                                "width": 101,
+                                "x": 33,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Roll Circularly",
+                            "name": "label_8",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        },
+                        {
+                            "auto size": true,
+                            "class": "lv_img",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 28,
+                                "width": 28,
+                                "x": 150,
+                                "y": 10
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "name": "image_7",
+                            "offset": {
+                                "X": 0,
+                                "Y": 0
+                            },
+                            "source": "ICON_ADAS_CAL",
+                            "styles": [
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "Image": {
+                                        "image_recolor": "0xffffff"
+                                    },
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x888888"
+                                    },
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "widget": "Image"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 48,
+                        "width": 231,
+                        "x": 4,
+                        "y": 112
+                    },
+                    "hidden": false,
+                    "layout": "Row Mid",
+                    "locked": false,
+                    "name": "button_8",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 0
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495",
+                                "outline_width": 0
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Left",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 30,
+                                "width": 101,
+                                "x": 33,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Roll Circularly",
+                            "name": "label_10",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        },
+                        {
+                            "auto size": true,
+                            "class": "lv_img",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 28,
+                                "width": 28,
+                                "x": 150,
+                                "y": 10
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "name": "image_8",
+                            "offset": {
+                                "X": 0,
+                                "Y": 0
+                            },
+                            "source": "ICON_ADAS_CAL",
+                            "styles": [
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "Image": {
+                                        "image_recolor": "0xffffff"
+                                    },
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x888888"
+                                    },
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "widget": "Image"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 48,
+                        "width": 231,
+                        "x": 4,
+                        "y": 165
+                    },
+                    "hidden": false,
+                    "layout": "Row Mid",
+                    "locked": false,
+                    "name": "button_10",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 0
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495",
+                                "outline_width": 0
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                },
+                {
+                    "checkable": false,
+                    "children": [
+                        {
+                            "align": "Left",
+                            "class": "lv_label",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 30,
+                                "width": 101,
+                                "x": 33,
+                                "y": 9
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "long mode": "Roll Circularly",
+                            "name": "label_11",
+                            "recolor": false,
+                            "string id": "None",
+                            "styles": [
+                                {
+                                    "Text": {
+                                        "text_color": "0x3c3c3c",
+                                        "text_font": "NotoSans-Black 24 1bpp",
+                                        "text_sel_bg_color": "0x00b495",
+                                        "text_sel_color": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "text": "Text",
+                            "widget": "Label"
+                        },
+                        {
+                            "auto size": true,
+                            "class": "lv_img",
+                            "click": false,
+                            "drag": false,
+                            "event callback": "",
+                            "geometry": {
+                                "height": 28,
+                                "width": 28,
+                                "x": 150,
+                                "y": 10
+                            },
+                            "hidden": false,
+                            "locked": false,
+                            "name": "image_9",
+                            "offset": {
+                                "X": 0,
+                                "Y": 0
+                            },
+                            "source": "ICON_ADAS_CAL",
+                            "styles": [
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x3c3c3c"
+                                    },
+                                    "part": 0,
+                                    "state": 0
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 1
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 2
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 3
+                                },
+                                {
+                                    "part": 0,
+                                    "state": 4
+                                },
+                                {
+                                    "Image": {
+                                        "image_recolor": "0xffffff"
+                                    },
+                                    "part": 0,
+                                    "state": 5
+                                },
+                                {
+                                    "Image": {
+                                        "image_recolor": "0x888888"
+                                    },
+                                    "part": 0,
+                                    "state": 6
+                                }
+                            ],
+                            "widget": "Image"
+                        }
+                    ],
+                    "class": "lv_btn",
+                    "click": true,
+                    "drag": false,
+                    "event callback": "",
+                    "fit": "None",
+                    "geometry": {
+                        "height": 48,
+                        "width": 231,
+                        "x": 4,
+                        "y": 218
+                    },
+                    "hidden": false,
+                    "layout": "Row Mid",
+                    "locked": false,
+                    "name": "button_11",
+                    "state": "Released",
+                    "style": "Custome Style",
+                    "styles": [
+                        {
+                            "Border": {
+                                "border_color": "0x00b495",
+                                "border_width": 3
+                            },
+                            "Mix": {
+                                "radius": 0
+                            },
+                            "Outline": {
+                                "outline_color": "0x00b495",
+                                "outline_width": 0
+                            },
+                            "Value": {
+                                "value_color": "0x3c3c3c",
+                                "value_font": "montserrat 16 4bpp"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "Border": {
+                                "border_color": "0xff3f00"
+                            },
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "widget": "Button"
+                }
+            ],
+            "class": "lv_cont",
+            "click": true,
+            "drag": false,
+            "event callback": "",
+            "geometry": {
+                "height": 273,
+                "width": 239,
+                "x": 353,
+                "y": 198
+            },
+            "hidden": false,
+            "layout": "Column Mid",
+            "locked": false,
+            "name": "container_3",
+            "styles": [
+                {
+                    "Background": {
+                        "bg_color": "0x1f489a"
+                    },
+                    "Border": {
+                        "border_color": "0xdddddd",
+                        "border_width": 0
+                    },
+                    "Padding": {
+                        "pad_bottom": 6,
+                        "pad_inner": 5,
+                        "pad_top": 6
+                    },
+                    "part": 0,
+                    "state": 0
+                },
+                {
+                    "part": 0,
+                    "state": 1
+                },
+                {
+                    "part": 0,
+                    "state": 2
+                },
+                {
+                    "part": 0,
+                    "state": 3
+                },
+                {
+                    "part": 0,
+                    "state": 4
+                },
+                {
+                    "part": 0,
+                    "state": 5
+                },
+                {
+                    "part": 0,
+                    "state": 6
+                }
+            ],
+            "widget": "Container"
+        },
+        {
+            "children": [
+                {
+                    "checked": false,
+                    "class": "lv_checkbox",
+                    "click": true,
+                    "disabled": false,
+                    "drag": false,
+                    "event callback": "check_box_event_callback",
+                    "geometry": {
+                        "height": 21,
+                        "width": 86,
+                        "x": 14,
+                        "y": 13
+                    },
+                    "hidden": false,
+                    "locked": false,
+                    "name": "check_box_menu1",
+                    "styles": [
+                        {
+                            "Text": {
+                                "text_color": "0x3c3c3c",
+                                "text_font": "NotoSans-Black 16 1bpp",
+                                "text_sel_bg_color": "0x00b495",
+                                "text_sel_color": "0x3c3c3c"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "text": "Menu1",
+                    "widget": "Check box"
+                },
+                {
+                    "checked": false,
+                    "class": "lv_checkbox",
+                    "click": true,
+                    "disabled": false,
+                    "drag": false,
+                    "event callback": "check_box_event_callback",
+                    "geometry": {
+                        "height": 21,
+                        "width": 86,
+                        "x": 112,
+                        "y": 13
+                    },
+                    "hidden": false,
+                    "locked": false,
+                    "name": "check_box_menu2",
+                    "styles": [
+                        {
+                            "Text": {
+                                "text_color": "0x3c3c3c",
+                                "text_font": "NotoSans-Black 16 1bpp",
+                                "text_sel_bg_color": "0x00b495",
+                                "text_sel_color": "0x3c3c3c"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "text": "Menu2",
+                    "widget": "Check box"
+                },
+                {
+                    "checked": false,
+                    "class": "lv_checkbox",
+                    "click": true,
+                    "disabled": false,
+                    "drag": false,
+                    "event callback": "check_box_event_callback",
+                    "geometry": {
+                        "height": 21,
+                        "width": 86,
+                        "x": 210,
+                        "y": 13
+                    },
+                    "hidden": false,
+                    "locked": false,
+                    "name": "check_box_menu3",
+                    "styles": [
+                        {
+                            "Text": {
+                                "text_color": "0x3c3c3c",
+                                "text_font": "NotoSans-Black 16 1bpp",
+                                "text_sel_bg_color": "0x00b495",
+                                "text_sel_color": "0x3c3c3c"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "text": "Menu3",
+                    "widget": "Check box"
+                }
+            ],
+            "class": "lv_cont",
+            "click": true,
+            "drag": false,
+            "event callback": "",
+            "geometry": {
+                "height": 46,
+                "width": 305,
+                "x": 7,
+                "y": 425
+            },
+            "hidden": false,
+            "layout": "Row Mid",
+            "locked": false,
+            "name": "container_4",
+            "styles": [
+                {
+                    "Background": {
+                        "bg_opa": 0
+                    },
+                    "Border": {
+                        "border_color": "0xdddddd",
+                        "border_opa": 0,
+                        "border_width": 0
+                    },
+                    "part": 0,
+                    "state": 0
+                },
+                {
+                    "part": 0,
+                    "state": 1
+                },
+                {
+                    "part": 0,
+                    "state": 2
+                },
+                {
+                    "part": 0,
+                    "state": 3
+                },
+                {
+                    "part": 0,
+                    "state": 4
+                },
+                {
+                    "part": 0,
+                    "state": 5
+                },
+                {
+                    "part": 0,
+                    "state": 6
+                }
+            ],
+            "widget": "Container"
+        },
+        {
+            "align": "Left",
+            "class": "lv_label",
+            "click": false,
+            "drag": false,
+            "event callback": "",
+            "geometry": {
+                "height": 30,
+                "width": 84,
+                "x": 6,
+                "y": 163
+            },
+            "hidden": false,
+            "locked": false,
+            "long mode": "Expand",
+            "name": "label_12",
+            "recolor": false,
+            "string id": "None",
+            "styles": [
+                {
+                    "Text": {
+                        "text_color": "0x3c3c3c",
+                        "text_font": "NotoSans-Black 24 1bpp",
+                        "text_sel_bg_color": "0x00b495",
+                        "text_sel_color": "0x3c3c3c"
+                    },
+                    "part": 0,
+                    "state": 0
+                },
+                {
+                    "part": 0,
+                    "state": 1
+                },
+                {
+                    "part": 0,
+                    "state": 2
+                },
+                {
+                    "part": 0,
+                    "state": 3
+                },
+                {
+                    "part": 0,
+                    "state": 4
+                },
+                {
+                    "part": 0,
+                    "state": 5
+                },
+                {
+                    "part": 0,
+                    "state": 6
+                }
+            ],
+            "text": "Menu2",
+            "widget": "Label"
+        },
+        {
+            "align": "Left",
+            "class": "lv_label",
+            "click": false,
+            "drag": false,
+            "event callback": "",
+            "geometry": {
+                "height": 30,
+                "width": 84,
+                "x": 357,
+                "y": 165
+            },
+            "hidden": false,
+            "locked": false,
+            "long mode": "Expand",
+            "name": "label_13",
+            "recolor": false,
+            "string id": "None",
+            "styles": [
+                {
+                    "Text": {
+                        "text_color": "0x3c3c3c",
+                        "text_font": "NotoSans-Black 24 1bpp",
+                        "text_sel_bg_color": "0x00b495",
+                        "text_sel_color": "0x3c3c3c"
+                    },
+                    "part": 0,
+                    "state": 0
+                },
+                {
+                    "part": 0,
+                    "state": 1
+                },
+                {
+                    "part": 0,
+                    "state": 2
+                },
+                {
+                    "part": 0,
+                    "state": 3
+                },
+                {
+                    "part": 0,
+                    "state": 4
+                },
+                {
+                    "part": 0,
+                    "state": 5
+                },
+                {
+                    "part": 0,
+                    "state": 6
+                }
+            ],
+            "text": "Menu3",
+            "widget": "Label"
+        },
+        {
+            "align": "Left",
+            "class": "lv_label",
+            "click": false,
+            "drag": false,
+            "event callback": "",
+            "geometry": {
+                "height": 30,
+                "width": 84,
+                "x": 6,
+                "y": 26
+            },
+            "hidden": false,
+            "locked": false,
+            "long mode": "Expand",
+            "name": "label_14",
+            "recolor": false,
+            "string id": "None",
+            "styles": [
+                {
+                    "Text": {
+                        "text_color": "0x3c3c3c",
+                        "text_font": "NotoSans-Black 24 1bpp",
+                        "text_sel_bg_color": "0x00b495",
+                        "text_sel_color": "0x3c3c3c"
+                    },
+                    "part": 0,
+                    "state": 0
+                },
+                {
+                    "part": 0,
+                    "state": 1
+                },
+                {
+                    "part": 0,
+                    "state": 2
+                },
+                {
+                    "part": 0,
+                    "state": 3
+                },
+                {
+                    "part": 0,
+                    "state": 4
+                },
+                {
+                    "part": 0,
+                    "state": 5
+                },
+                {
+                    "part": 0,
+                    "state": 6
+                }
+            ],
+            "text": "Menu1",
+            "widget": "Label"
+        }
+    ]
+}

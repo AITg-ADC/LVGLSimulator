@@ -1,0 +1,388 @@
+{
+    "event callback": "ScreenMain_event_callback",
+    "name": "ScreenMain",
+    "screen color": "0xe9e9e9",
+    "widgets": [
+        {
+            "add buttons": [
+                "1@OK@",
+                "2@NO@"
+            ],
+            "animation time": 500,
+            "button's text": "OK,NO,",
+            "class": "lv_msgbox",
+            "click": true,
+            "content": "Demo MessageBox",
+            "drag": false,
+            "event callback": "msgbox_event_callback",
+            "geometry": {
+                "height": 114,
+                "width": 200,
+                "x": 65,
+                "y": 64
+            },
+            "hidden": false,
+            "locked": false,
+            "name": "message_box_1",
+            "recolor": false,
+            "string id": "None",
+            "styles": [
+                {
+                    "Background": {
+                        "bg_color": "0x1f489a"
+                    },
+                    "Border": {
+                        "border_color": "0xdddddd"
+                    },
+                    "Text": {
+                        "text_color": "0xffffff",
+                        "text_font": "NotoSans-Black 16 1bpp",
+                        "text_sel_bg_color": "0x00b495",
+                        "text_sel_color": "0x3c3c3c"
+                    },
+                    "part": 0,
+                    "state": 0
+                },
+                {
+                    "part": 0,
+                    "state": 1
+                },
+                {
+                    "part": 0,
+                    "state": 2
+                },
+                {
+                    "part": 0,
+                    "state": 3
+                },
+                {
+                    "part": 0,
+                    "state": 4
+                },
+                {
+                    "part": 0,
+                    "state": 5
+                },
+                {
+                    "part": 0,
+                    "state": 6
+                },
+                {
+                    "part": 64,
+                    "state": 0
+                },
+                {
+                    "part": 64,
+                    "state": 1
+                },
+                {
+                    "part": 64,
+                    "state": 2
+                },
+                {
+                    "part": 64,
+                    "state": 3
+                },
+                {
+                    "part": 64,
+                    "state": 4
+                },
+                {
+                    "part": 64,
+                    "state": 5
+                },
+                {
+                    "part": 64,
+                    "state": 6
+                },
+                {
+                    "Border": {
+                        "border_color": "0x00b495",
+                        "border_width": 3
+                    },
+                    "Mix": {
+                        "radius": 10
+                    },
+                    "Outline": {
+                        "outline_color": "0x00b495",
+                        "outline_width": 0
+                    },
+                    "Text": {
+                        "text_color": "0x3c3c3c",
+                        "text_font": "NotoSans-Black 16 1bpp",
+                        "text_sel_bg_color": "0x00b495",
+                        "text_sel_color": "0x3c3c3c"
+                    },
+                    "Value": {
+                        "value_color": "0x3c3c3c",
+                        "value_font": "montserrat 16 4bpp"
+                    },
+                    "part": 65,
+                    "state": 0
+                },
+                {
+                    "part": 65,
+                    "state": 1
+                },
+                {
+                    "Border": {
+                        "border_color": "0xffff00"
+                    },
+                    "part": 65,
+                    "state": 2
+                },
+                {
+                    "part": 65,
+                    "state": 3
+                },
+                {
+                    "part": 65,
+                    "state": 4
+                },
+                {
+                    "Background": {
+                        "bg_color": "0xc8fae7"
+                    },
+                    "Border": {
+                        "border_color": "0xffff00"
+                    },
+                    "part": 65,
+                    "state": 5
+                },
+                {
+                    "part": 65,
+                    "state": 6
+                }
+            ],
+            "widget": "Message box"
+        },
+        {
+            "checkable": false,
+            "class": "lv_btn",
+            "click": true,
+            "drag": false,
+            "event callback": "btn_resume_event_callback",
+            "fit": "None",
+            "geometry": {
+                "height": 39,
+                "width": 100,
+                "x": 5,
+                "y": 5
+            },
+            "hidden": false,
+            "layout": "Center",
+            "locked": false,
+            "name": "button_resume",
+            "state": "Released",
+            "style": "Custome Style",
+            "styles": [
+                {
+                    "Border": {
+                        "border_color": "0x00b495"
+                    },
+                    "Outline": {
+                        "outline_color": "0x00b495"
+                    },
+                    "Value": {
+                        "value_color": "0x3c3c3c",
+                        "value_font": "NotoSans-Black 16 1bpp",
+                        "value_str": "Resume"
+                    },
+                    "part": 0,
+                    "state": 0
+                },
+                {
+                    "part": 0,
+                    "state": 1
+                },
+                {
+                    "part": 0,
+                    "state": 2
+                },
+                {
+                    "part": 0,
+                    "state": 3
+                },
+                {
+                    "part": 0,
+                    "state": 4
+                },
+                {
+                    "part": 0,
+                    "state": 5
+                },
+                {
+                    "part": 0,
+                    "state": 6
+                }
+            ],
+            "widget": "Button"
+        },
+        {
+            "children": [
+                {
+                    "align": "Left",
+                    "class": "lv_label",
+                    "click": false,
+                    "drag": false,
+                    "event callback": "",
+                    "geometry": {
+                        "height": 17,
+                        "width": 57,
+                        "x": 14,
+                        "y": 10
+                    },
+                    "hidden": false,
+                    "locked": false,
+                    "long mode": "Expand",
+                    "name": "label_1",
+                    "recolor": false,
+                    "string id": "None",
+                    "styles": [
+                        {
+                            "Text": {
+                                "text_color": "0x3c3c3c",
+                                "text_font": "NotoSans-Black 16 1bpp",
+                                "text_sel_bg_color": "0x00b495",
+                                "text_sel_color": "0x3c3c3c"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "text": "Result:",
+                    "widget": "Label"
+                },
+                {
+                    "align": "Left",
+                    "class": "lv_label",
+                    "click": false,
+                    "drag": false,
+                    "event callback": "",
+                    "geometry": {
+                        "height": 18,
+                        "width": 101,
+                        "x": 83,
+                        "y": 9
+                    },
+                    "hidden": false,
+                    "locked": false,
+                    "long mode": "Roll Circularly",
+                    "name": "label_2",
+                    "recolor": false,
+                    "string id": "None",
+                    "styles": [
+                        {
+                            "Text": {
+                                "text_color": "0x3c3c3c",
+                                "text_font": "NotoSans-Black 16 1bpp",
+                                "text_sel_bg_color": "0x00b495",
+                                "text_sel_color": "0x3c3c3c"
+                            },
+                            "part": 0,
+                            "state": 0
+                        },
+                        {
+                            "part": 0,
+                            "state": 1
+                        },
+                        {
+                            "part": 0,
+                            "state": 2
+                        },
+                        {
+                            "part": 0,
+                            "state": 3
+                        },
+                        {
+                            "part": 0,
+                            "state": 4
+                        },
+                        {
+                            "part": 0,
+                            "state": 5
+                        },
+                        {
+                            "part": 0,
+                            "state": 6
+                        }
+                    ],
+                    "text": "Text",
+                    "widget": "Label"
+                }
+            ],
+            "class": "lv_cont",
+            "click": true,
+            "drag": false,
+            "event callback": "",
+            "geometry": {
+                "height": 37,
+                "width": 320,
+                "x": 2,
+                "y": 203
+            },
+            "hidden": false,
+            "layout": "Row Mid",
+            "locked": false,
+            "name": "container_1",
+            "styles": [
+                {
+                    "Border": {
+                        "border_color": "0xdddddd"
+                    },
+                    "part": 0,
+                    "state": 0
+                },
+                {
+                    "part": 0,
+                    "state": 1
+                },
+                {
+                    "part": 0,
+                    "state": 2
+                },
+                {
+                    "part": 0,
+                    "state": 3
+                },
+                {
+                    "part": 0,
+                    "state": 4
+                },
+                {
+                    "part": 0,
+                    "state": 5
+                },
+                {
+                    "part": 0,
+                    "state": 6
+                }
+            ],
+            "widget": "Container"
+        }
+    ]
+}
